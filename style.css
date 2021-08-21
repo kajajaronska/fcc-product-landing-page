@@ -28,7 +28,13 @@ body {
 .nav-link {
   color: #eddfd0;
   font-weight: bold;
-  margin-right: 15px;
+  margin-right: 35px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
 }
 
 .logo {
