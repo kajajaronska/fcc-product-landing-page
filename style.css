@@ -14,6 +14,12 @@ body {
   font-family: "Montserrat";
 }
 
+/* Centering the page in the browser */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
   padding: 20px 40px;
   background-color: #b79d88;
