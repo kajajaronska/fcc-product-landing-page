@@ -57,6 +57,10 @@ h2 {
   padding: 10px 10px;
 }
 
+h2::first-letter {
+  font-size: 50px;
+}
+
 section {
   margin: 20px;
   padding: 20px;
@@ -86,8 +90,10 @@ p {
 }
 
 .class-img {
-  width: 33%;
+  display: block;
+  max-width: 100%;
   height: auto;
+  margin-bottom: 30px;
 }
 
 button {
