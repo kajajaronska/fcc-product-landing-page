@@ -97,7 +97,7 @@ p {
 }
 
 button {
-  font-size: 22px;
+  font-size: 122px;
   font-family: "Montserrat";
   padding: 10px;
   cursor: pointer;
@@ -106,3 +106,5 @@ button {
   bottom: 50px;
   right: 50px;
 }
+
+/* Adding comment to check GitHub repository connection */
