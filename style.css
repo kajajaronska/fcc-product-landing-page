@@ -6,6 +6,7 @@
   /*  Global reset of margin and padding to overwrite default styles */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -97,15 +98,17 @@ p {
 }
 
 #bread-workshops {
-  /* background-color:seagreen; */
-  width: 500px;
+  background-color: #E1c39c;
+  width: 550px;
   float: left;
+  /* box-sizing: border-box; */
 }
 
 #bread-accessories {
-  /* background-color: steelblue; */
-  width: 500px;
+  background-color: #E1c39c;
+  width: 550px;
   float: right;
+  /* box-sizing: border-box; */
 }
 
 #contact-form {
