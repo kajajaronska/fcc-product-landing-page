@@ -24,9 +24,7 @@ body {
 }
 
 .main-header {
-  /* padding: 20px 20px; */
   background-color: #b79d88;
-  /* display: flex; */
 }
 
 #nav-bar {
@@ -76,49 +74,45 @@ section {
 .accessory-link:hover {
   text-decoration: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 a {
   text-decoration: none;
   color: brown;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
   font-size: 23px;
 }
 
-.workshops,
-.accessories {
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
+  margin-bottom: 20px;
+  /* background-color: tomato; */
   margin-bottom: 20px;
 }
 
 .class-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 30px;
+  width: 260px;
+  height: 350px;
+  margin-bottom: 10px;
 }
 
-#bread-workshops {
-  background-color: #E1c39c;
-  width: 550px;
-  float: left;
-  /* box-sizing: border-box; */
+.workshops, .accessories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+
 }
 
-#bread-accessories {
-  background-color: #E1c39c;
-  width: 550px;
-  float: right;
-  /* box-sizing: border-box; */
-}
-
-#contact-form {
-  clear: both;
-}
 
 button {
   font-size: 22px;
