@@ -12,7 +12,7 @@
 body {
   background-color: #feecd7;
   color: #342018;
-  font-family: "Montserrat";
+  font-family: "Montserrat", "Calibri";
   /* position: relative; */
 }
 
@@ -25,22 +25,26 @@ body {
 
 .main-header {
   background-color: #b79d88;
+  height: 70px;
+  padding: 10px;
+
+  /* FLEXBOX */
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 #nav-bar {
-  margin-left: 30px;
   display: flex;
-  height: 70px;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  gap: 30px;
 }
 
 .nav-link {
   color: #eddfd0;
   font-weight: bold;
-  margin-right: 35px;
-  margin-top: 10px;
+  /* margin-right: 35px; */
+  /* margin-top: 20px; */
   display: inline-block;
 }
 
@@ -88,14 +92,16 @@ p {
 }
 
 .section-container {
+  /* STARTER */
+  /* width: 100%; */
+  margin-bottom: 20px;
+
+  /* FLEXBOX */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 100%;
-  margin-bottom: 20px;
-  /* background-color: tomato; */
-  margin-bottom: 20px;
+  gap: 40px;
 }
 
 .class-img {
@@ -105,16 +111,49 @@ p {
 }
 
 .workshops, .accessories {
+  /* STARTER */
+  /* width: 400px; */
+
+  /* FLEXBOX */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 400px;
-
+  gap: 15px;
 }
 
 
-button {
+.form-row {
+  font-size: 23px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.form-row > input {
+  height: 30px;
+  font-size: 23px;
+}
+
+.form-button > input {
+  height: 30px;
+  font-size: 23px;
+  width: 160px;
+}
+
+ul {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+
+/* button {
   font-size: 22px;
   font-family: "Montserrat";
   padding: 10px;
@@ -122,6 +161,6 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
-}
+} */
 
 
