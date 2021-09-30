@@ -6,49 +6,60 @@
   /*  Global reset of margin and padding to overwrite default styles */
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #feecd7;
   color: #342018;
-  font-family: "Montserrat";
+  font-family: "Montserrat", "Calibri";
   /* position: relative; */
 }
 
 /* Centering the page in the browser */
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
 .main-header {
-  padding: 20px 40px;
   background-color: #b79d88;
+  height: 70px;
+  padding: 10px;
+
+  /* FLEXBOX */
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 30px;
 }
 
 .nav-link {
   color: #eddfd0;
   font-weight: bold;
-  margin-right: 35px;
-  margin-top: 10px;
+  /* margin-right: 35px; */
+  /* margin-top: 20px; */
   display: inline-block;
 }
 
-.nav-link:last-child {
-  margin-right: 0;
-}
 
 .logo {
-  width: 60vw;
+  width: 180px;
   height: 70px;
-  padding-bottom: 20px;
+  float: left;
+  margin-right: 30px;
 }
 
 .logo > img {
   width: 100%;
   height: 100%;
-  max-width: 300px;
+  /* max-width: 300px; */
 }
 
 h2 {
@@ -57,9 +68,6 @@ h2 {
   padding: 10px 10px;
 }
 
-h2::first-letter {
-  font-size: 50px;
-}
 
 section {
   margin: 20px;
@@ -70,43 +78,97 @@ section {
 .accessory-link:hover {
   text-decoration: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 33px;
 }
 
 a {
   text-decoration: none;
   color: brown;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
   font-size: 23px;
 }
 
-.workshops,
-.accessories {
-  width: 100%;
+.section-container {
+  /* STARTER */
+  /* width: 100%; */
   margin-bottom: 20px;
+
+  /* FLEXBOX */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .class-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 30px;
+  width: 260px;
+  height: 350px;
+  margin-bottom: 10px;
 }
 
+.workshops, .accessories {
+  /* STARTER */
+  /* width: 400px; */
+
+  /* FLEXBOX */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.form-row {
+  font-size: 23px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.form-row > input {
+  height: 30px;
+  font-size: 23px;
+}
+
+.form-button > input {
+  height: 30px;
+  font-size: 23px;
+  width: 160px;
+}
+
+ul {
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+<<<<<<< HEAD
 .float-test {
   float: right;
 }
 
 button {
+=======
+
+/* button {
+>>>>>>> 1065442e7be01a68c11a999e3eb7324bacd685cd
   font-size: 22px;
   font-family: "Montserrat";
   padding: 10px;
   cursor: pointer;
-
   position: absolute;
   bottom: 50px;
   right: 50px;
-}
+} */
+
+
