@@ -96,6 +96,10 @@ p {
   margin-bottom: 30px;
 }
 
+.float-test {
+  float: right;
+}
+
 button {
   font-size: 22px;
   font-family: "Montserrat";
