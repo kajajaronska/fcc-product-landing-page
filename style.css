@@ -130,6 +130,7 @@ p {
   /* GRID */
   display: grid;
   gap: 15px;
+  justify-items: center;
 }
 
 #contact-form {
