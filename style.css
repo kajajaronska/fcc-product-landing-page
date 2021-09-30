@@ -30,7 +30,7 @@ body {
 
   /* FLEXBOX */
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   gap: 30px;
 }
@@ -47,7 +47,6 @@ body {
   /* margin-top: 20px; */
   display: inline-block;
 }
-
 
 .logo {
   width: 180px;
@@ -68,9 +67,8 @@ h2 {
   padding: 10px 10px;
 }
 
-
 section {
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
 }
 
@@ -96,12 +94,18 @@ p {
   /* width: 100%; */
   margin-bottom: 20px;
 
+  /* GRID */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+
   /* FLEXBOX */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
+  gap: 40px; */
 }
 
 .class-img {
@@ -110,18 +114,29 @@ p {
   margin-bottom: 10px;
 }
 
-.workshops, .accessories {
+.workshops,
+.accessories {
   /* STARTER */
   /* width: 400px; */
 
   /* FLEXBOX */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 15px; */
+  /* flex-basis: 300px; */
+
+  /* GRID */
+  display: grid;
   gap: 15px;
 }
 
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .form-row {
   font-size: 23px;
@@ -152,16 +167,7 @@ ul {
   gap: 30px;
 }
 
-<<<<<<< HEAD
-.float-test {
-  float: right;
-}
-
-button {
-=======
-
 /* button {
->>>>>>> 1065442e7be01a68c11a999e3eb7324bacd685cd
   font-size: 22px;
   font-family: "Montserrat";
   padding: 10px;
@@ -170,5 +176,3 @@ button {
   bottom: 50px;
   right: 50px;
 } */
-
-
