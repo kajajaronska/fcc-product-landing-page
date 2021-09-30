@@ -21,9 +21,9 @@
 
         <nav id="nav-bar">
           <a class="nav-link" href="#about-us">About Us </a>
-          <a class="nav-link" href="#workshops">Classes</a>
-          <a class="nav-link" href="#bread-accessories">Accesories</a>
-          <a class="nav-link" href="#contact-form">Contact Us</a>
+          <a class="nav-link" href="#bread--workshops">Classes</a>
+          <a class="nav-link" href="#bread--accessories">Accesories</a>
+          <a class="nav-link" href="#form">Contact Us</a>
         </nav>
 
         <!-- <button>🥨 Like</button> -->
@@ -45,10 +45,10 @@
         </p>
       </section>
 
-      <section id="video">
+      <section id="video--section">
         <h2>You can also become a bread master!</h2>
 
-        <video width="800px" height="auto" controls>
+        <video id="video" width="800px" height="auto" controls>
           <source src="bread-making-video.mp4" type="video/mp4" />
         </video>
       </section>
@@ -57,7 +57,11 @@
         <h2>We offer a range of bread making classes</h2>
         <div class="section-container">
           <div class="workshops">
-            <img src="bread-making-class-1.jpg" class="class-img" />
+            <img
+              src="bread-making-class-1.jpg"
+              class="class-img"
+              alt="Bread maikng"
+            />
             <a class="class-link" href="#bread-making-class-1"
               >Sourdough Bread Evening Class</a
             >
@@ -70,7 +74,11 @@
             </p>
           </div>
           <div class="workshops">
-            <img src="bread-making-class-2.jpg" class="class-img" />
+            <img
+              src="bread-making-class-2.jpg"
+              class="class-img"
+              alt="Bread maikng"
+            />
             <a class="class-link" href="#bread-making-class-2"
               >Sourdough Bread Weekend Class</a
             >
@@ -83,7 +91,11 @@
             </p>
           </div>
           <div class="workshops">
-            <img src="bread-making-class-3.jpg" class="class-img" />
+            <img
+              src="bread-making-class-3.jpg"
+              class="class-img"
+              alt="Bread maikng"
+            />
             <a class="class-link" href="#bread-making-class-3"
               >French Baguettes Weekend Class</a
             >
@@ -98,12 +110,16 @@
         </div>
       </section>
 
-      <section id="bread-accessories">
+      <section id="bread--accessories">
         <h2>Range of bread-making accessories to try out at home!</h2>
 
         <div class="section-container">
           <div class="accessories">
-            <img src="bread-accessories-1.jpg" class="class-img" />
+            <img
+              src="bread-accessories-1.jpg"
+              class="class-img"
+              alt="Bread accessory"
+            />
             <a class="accessory-link" href="#bread-making-accessory-1"
               >Banneton Baskets</a
             >
@@ -116,7 +132,11 @@
             </p>
           </div>
           <div class="accessories">
-            <img src="bread-accessories-2.jpg" class="class-img" />
+            <img
+              src="bread-accessories-2.jpg"
+              class="class-img"
+              alt="Bread accessory"
+            />
             <a class="accessory-link" href="#bread-making-accessory-2"
               >Bread Lame</a
             >
@@ -129,7 +149,11 @@
             </p>
           </div>
           <div class="accessories">
-            <img src="bread-accessories-3.jpg" class="class-img" />
+            <img
+              src="bread-accessories-3.jpg"
+              class="class-img"
+              alt="Bread accessory"
+            />
             <a class="accessory-link" href="#bread-making-accessory-3"
               >Food Scale</a
             >
@@ -144,37 +168,17 @@
         </div>
       </section>
 
-      <section id="contact-form">
+      <section id="contact-form--section">
         <h2 class="float-test">Have questions? Get in touch:</h2>
 
-        <form>
-          <div class="form-row">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" /><br />
-          </div>
-
-          <div class="form-row">
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" /><br />
-          </div>
-
-          <div class="form-row">
-            <label for="email">E-mail address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Your e-mail goes here"
-              required
-            /><br />
-          </div>
-
-          <a
-            class="form-button"
-            href="https://www.freecodecamp.com/email-submit"
-          >
-            <input type="button" id="submit" name="submit" value="Get baking" />
-          </a>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+          />
+          <input type="submit" id="submit" value="Send" />
         </form>
       </section>
       <div class="footer-links">

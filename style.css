@@ -135,7 +135,7 @@ p {
   justify-items: center;
 }
 
-#contact-form {
+#contact-form--section {
   display: flex;
   flex-direction: column;
 }
